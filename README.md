@@ -1,2 +1,2 @@
 # harshita-designer.github.io
-A personal website
+A personal website for Harshita, a designer and developer. Built using HTML, CSS, and JavaScript, this website showcases Harshita's portfolio, skills, and contact information. The design is clean and modern, with a focus on user experience and accessibility. Visitors can explore Harshita's work, learn about her background, and get in touch for potential collaborations or projects.
