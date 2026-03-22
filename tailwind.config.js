@@ -7,24 +7,47 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "hsl(220 25% 4%)",
-        foreground: "hsl(0 0% 100%)",
+        background: "#080c14",
+        foreground: "#f8f9fa",
         primary: {
-          DEFAULT: "hsl(38 88% 58%)",
-          foreground: "hsl(0 0% 0%)",
+          DEFAULT: "#f0a827",
+          foreground: "#000000",
         },
         muted: {
-          DEFAULT: "hsl(220 18% 14%)",
-          foreground: "hsl(220 12% 50%)",
+          DEFAULT: "#111827",
+          foreground: "#6b7280",
         },
         card: {
-          DEFAULT: "hsl(220 22% 7%)",
-          foreground: "hsl(0 0% 100%)",
+          DEFAULT: "#0a0e18",
+          foreground: "#f8f9fa",
         },
+        border: "rgba(255,255,255,0.06)",
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
         heading: ["Space Grotesk", "sans-serif"],
+      },
+      letterSpacing: {
+        widest: "0.18em",
+        "extra-wide": "0.22em",
+      },
+      borderRadius: {
+        "4xl": "2rem",
+        "5xl": "2.5rem",
+      },
+      animation: {
+        "fade-up": "fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards",
+        "fade-in": "fadeIn 0.6s ease forwards",
+      },
+      keyframes: {
+        fadeUp: {
+          from: { opacity: "0", transform: "translateY(30px)" },
+          to:   { opacity: "1", transform: "translateY(0)" },
+        },
+        fadeIn: {
+          from: { opacity: "0" },
+          to:   { opacity: "1" },
+        },
       },
     },
   },
