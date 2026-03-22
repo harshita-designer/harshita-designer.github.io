@@ -7,19 +7,24 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "#0A0A0A",
-        foreground: "#FFFFFF",
+        background: "hsl(220 25% 4%)",
+        foreground: "hsl(0 0% 100%)",
         primary: {
-          DEFAULT: "#FACC15",
-          foreground: "#000000",
+          DEFAULT: "hsl(38 88% 58%)",
+          foreground: "hsl(0 0% 0%)",
         },
         muted: {
-          DEFAULT: "#27272A",
-          foreground: "#A1A1AA",
+          DEFAULT: "hsl(220 18% 14%)",
+          foreground: "hsl(220 12% 50%)",
+        },
+        card: {
+          DEFAULT: "hsl(220 22% 7%)",
+          foreground: "hsl(0 0% 100%)",
         },
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
+        heading: ["Space Grotesk", "sans-serif"],
       },
     },
   },
